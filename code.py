@@ -27,7 +27,7 @@ from sklearn.preprocessing import StandardScaler
 print("⚙️ [1/5] Memuat dan Membersihkan Data...")
 
 # 1. Load Data CSV
-csv_filename = '/content/jumlah_kasus_hiv_berdasarkan_kelompok_umur_v1_data.csv'
+csv_filename = 'jumlah_kasus_hiv_berdasarkan_kelompok_umur_v1_data.csv'
 try:
     df = pd.read_csv(csv_filename)
 except FileNotFoundError:
