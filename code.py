@@ -34,7 +34,7 @@ except FileNotFoundError:
     print("❌ Error: File CSV tidak ditemukan. Upload dulu file CSV Anda.")
 
 # 2. Load GeoJSON (Peta Batas Kab/Kota)
-geojson_filename = '/content/jawa_barat_32_batas_kabkota.geojson'
+geojson_filename = 'jawa_barat_32_batas_kabkota.geojson'
 try:
     with open(geojson_filename, 'r') as f:
         jabar_geojson = json.load(f)
